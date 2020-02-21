@@ -7,8 +7,25 @@
 ### Functionaty 
 
 - [x] ~~Django Settings~~
-- [ ] User Application
-- [ ] Room Application
+
+---
+
+### User Apps
+
+- [x] ~~Custom User Models~~
+- [x] ~~Custom User Admin Fields~~ 
+- [ ] Log in / Log out
+- [ ] Sign Up
+- [ ] Verify Email
+- [ ] Log in with Github
+- [ ] Log in with Kakao
+- [ ] Log in with Facebook
+- [ ] User Profile, Edit Profile, Change Password
+
+---
+
+### Room Apps
+
 - [ ] Review Models
 - [ ] Reservation Models
 - [ ] Conversation Models
@@ -25,19 +42,17 @@
 - [ ] Home View
 - [ ] Detail View
 - [ ] Search View
-- [ ] Log in / Log out
-- [ ] Sign Up
-- [ ] Verify Email
-- [ ] Log in with Github
-- [ ] Log in with Kakao
-- [ ] Log in with Facebook
 - [ ] install Tailwind Css
 - [ ] Style the Frontend
-- [ ] User Profile, Edit Profile, Change Password
 - [ ] Room Detail
 - [ ] Update Room, Create Room, Room Photo
 - [ ] Reservation and Review
 - [ ] Translation and List, Message
+
+---
+
+### Deployment
+
 - [ ] AWS Deployment
 
 ---
