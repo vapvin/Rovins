@@ -64,3 +64,4 @@
 ### Changes Log
 
 - 2020.02.20 Install Initalize Python, Django and Complete Setting to Django
+- 2020.02.21 Create Custom User Models, Admin, Create New App call of the Core, Create Core Models
