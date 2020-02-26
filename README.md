@@ -26,10 +26,10 @@
 
 ### Room Apps
 
-- [ ] Review Models
-- [ ] Reservation Models
-- [ ] Conversation Models
-- [ ] Messages Models
+- [x] ~~Review Models~~
+- [x] ~~Reservation Models~~
+- [x] ~~Conversation Models~~
+- [x] ~~Messages Models~~
 - [ ] Room Admin 
 - [ ] To QuerySet
 - [ ] Review Admin
