@@ -36,7 +36,7 @@ class RoomAdmin(admin.ModelAdmin):
 
 
 @admin.register(models.Photo)
-class PhotoADmin(admin.ModelAdmin):
+class PhotoAdmin(admin.ModelAdmin):
 
     """ Photo Admin Definition """
 
