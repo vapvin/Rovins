@@ -6,13 +6,13 @@ class User(AbstractUser):
 
     """ Custom User Model """
 
-    GENDER_MAIL = "mail"
-    GENDER_FEMAIL = "femail"
+    GENDER_MALE = "male"
+    GENDER_FEMALE = "female"
     GENDER_OTHER = "other"
 
     GENDER_CHOICES = (
-        (GENDER_MAIL, "Mail"),
-        (GENDER_FEMAIL, "Femail"),
+        (GENDER_MALE, "Male"),
+        (GENDER_FEMALE, "Female"),
         (GENDER_OTHER, "Other"),
     )
 
