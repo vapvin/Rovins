@@ -104,4 +104,8 @@ class PhotoAdmin(admin.ModelAdmin):
 
     """ Photo Admin Definition """
 
-    pass
+    list_display = ('__str__', 'get_thumbnail' )
+    def get_thumbnail(self, obj):
+        print(dir(obj.file))
+        return ""
+    get_thumbnail.short_description = "Thumbnail"
