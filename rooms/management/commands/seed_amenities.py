@@ -1,4 +1,5 @@
 from django.core.management.base import BaseCommand
+from rooms.models import Amenity
 
 class Command(BaseCommand):
 
@@ -53,8 +54,7 @@ class Command(BaseCommand):
             "Towels",
             "TV",
         ]
+        for a in amenities:
+            Amenity.objects.create(name=a)
+        self.stdout.write(self.style.SUCCESS("Amenities Create!"))
 
-    def handle(self, *args, **options):
-        times = options.get("times")
-        for t in range(0, int(times)):
-            self.stdout.write(self.style.SUCCESS("I love you"))
