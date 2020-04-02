@@ -8,7 +8,7 @@ from django.contrib.admin.utils import flatten
 
 class Command(BaseCommand):
 
-    help = "This command create many users"
+    help = "This command creates rooms"
 
     def add_arguments(self, parser):
         parser.add_argument(
