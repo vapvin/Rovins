@@ -6,12 +6,10 @@ from reservations import models as reservation_models
 from users import models as user_models
 from rooms import models as room_models
 
-
 NAME = "reservations"
 
 
 class Command(BaseCommand):
-
     help = f"This command creates {NAME}"
 
     def add_arguments(self, parser):
