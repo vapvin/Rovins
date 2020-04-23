@@ -10,4 +10,3 @@ def all_rooms(request):
     offset = limit - page_size
     all_rooms = models.Room.objects.all()[offset:limit]
     return render(request, "rooms/home.html", context={"rooms": all_rooms})
-
