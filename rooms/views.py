@@ -53,8 +53,14 @@ def search(request):
         "baths": baths,
     }
     room_types = models.RoomType.objects.all()
-    return render(
-        request,
-        "rooms/search.html",
-        {"city": city, "countries": countries, "room_types": room_types},
-    )
+    amenities = models.Amenity.objects.all()
+    facilities = models.Facility.objects.all()
+
+    choices = {
+        "countries": countries,
+        "room_types": room_types,
+        "amenities": amenities,
+        "facilities": facilities,
+    }
+
+    return render(request, "rooms/search.html", {**form, **choices})
